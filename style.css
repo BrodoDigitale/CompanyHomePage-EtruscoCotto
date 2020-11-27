@@ -1,1 +1,57 @@
+/* Universal Styles */
+body {
+    margin: 0;
+    font-family: 'Nunito', Sans-Serif;
+    color: seashell;
+    background-color: #2E4159;
+    font-size: 22px;
+    text-align: center;   
+}
+h1 {
+    font-family: 'Libre Baskerville', Serif;
+    font-size: 36px;
+}
+h3 {
+    font-family: 'Libre Baskerville', Serif;
+}
+/* Header */
 
+li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+a {
+    color: seashell;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: none;
+
+}
+.logo {
+    display: inline;
+    height: 100px;
+    width: 175px;
+    margin: 30px 100px;  
+}
+/* Banner*/
+.banner {
+background-image: url(../CompanyHomePage-EtruscoCotto/Resources/tri.jpg);
+display: flex;
+height: 500px;
+width: 100%;
+}
+.banner .content {
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+background-color: #2E4159;
+height: 200px;
+}
+.banner h1 {
+text-transform: uppercase;
+padding: 20px;
+}
