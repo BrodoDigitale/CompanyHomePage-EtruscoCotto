@@ -12,11 +12,12 @@ h1 {
     font-size: 36px;
 }
 h2 {
-   font-family:  'Libre Baskerville', Serif;   
-}
+   font-family:  'Libre Baskerville', Serif;
+   padding: 20px;   
 }
 h3 {
     font-family: 'Libre Baskerville', Serif;
+    padding: 10px;
 }
 /* Header */
 
@@ -27,7 +28,7 @@ li {
     margin-left: 10px;
 }
 a {
-    color: seashell;
+    color:  rgba(230,230,230,0.8);
     font-size: 18px;
     font-weight: lighter;
     text-decoration: none;
@@ -65,15 +66,19 @@ padding: 20px;
     margin: auto;
     padding-top: 70px;
 }
-.portfolio .content {
+.Portfolio .content {
     font-family: 'Nunito', Sans-Serif;
     text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 80px 0px;
 }
 #PortfolioPhotos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    text-decoration: underline;
+    
 }
 .portfoliophoto {
 display: flex;
@@ -94,4 +99,41 @@ min-width: 240px;
 font-weight: bold;
 text-align: center;
 font-size: 14px;
+}
+/*Team*/
+
+.Team {
+    padding-top: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teammate {
+padding: 10px;
+flex-basis: 280px;
+font-size: 18px;
+padding-bottom: 30px;
+}
+.teammate img {
+width: 200px;
+height: 300px;
+margin-left: auto;
+margin-right: auto;
+}
+/* Footer*/
+.footer {
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+background-color:  rgba(0,0,0,0.5); 
+}
+.footersection {
+color: rgba(230,230,230,0.8);
+font-size: 12px;
+font-weight: lighter;
+line-height: 2;
+text-align: left;
+margin-top: 40px; 
+margin-bottom: 40px;
 }
