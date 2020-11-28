@@ -12,8 +12,12 @@ h1 {
     font-size: 36px;
 }
 h2 {
+<<<<<<< HEAD
+   font-family:  'Libre Baskerville', Serif;   
+=======
    font-family:  'Libre Baskerville', Serif;
    padding: 20px;   
+>>>>>>> 079b0aaafb88790d8eaa57b4cb0d9d973bfa46b1
 }
 h3 {
     font-family: 'Libre Baskerville', Serif;
