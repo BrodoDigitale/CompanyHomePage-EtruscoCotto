@@ -3,4 +3,7 @@ In this project I created a company home page using CSS flexbox. I decided to re
 
 Wireframe: https://wireframe.cc/IJtDOF 
 Styling
-Fonts: LIBRE BASKERVILLE BOLD + NUNITO REGULAR, colors https://take.ms/alGno  
+Fonts: LIBRE BASKERVILLE BOLD + NUNITO REGULAR
+//
+Result: https://brododigitale.github.io/CompanyHomePage-EtruscoCotto/ 
+
