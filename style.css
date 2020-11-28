@@ -11,6 +11,10 @@ h1 {
     font-family: 'Libre Baskerville', Serif;
     font-size: 36px;
 }
+h2 {
+   font-family:  'Libre Baskerville', Serif;   
+}
+}
 h3 {
     font-family: 'Libre Baskerville', Serif;
 }
@@ -54,4 +58,40 @@ height: 200px;
 .banner h1 {
 text-transform: uppercase;
 padding: 20px;
+}
+/* Portfolio*/
+.Portfolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+.portfolio .content {
+    font-family: 'Nunito', Sans-Serif;
+    text-align: center;
+}
+#PortfolioPhotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.portfoliophoto {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.portfoliophoto img {
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+padding: 10px;
+height: auto;
+}
+.portfoliophoto span {
+padding: 5px;
+min-width: 240px;
+font-weight: bold;
+text-align: center;
+font-size: 14px;
 }
